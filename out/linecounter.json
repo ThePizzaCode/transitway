@@ -1,0 +1,1680 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/gabriel/Documents/Flutter apps/transitway",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2023-05-12 21:53:30",
+            "filesum": 239,
+            "codesum": 13862,
+            "commentsum": 939,
+            "blanksum": 1030,
+            "statistics": {
+                ".swift": {
+                    "code": 40,
+                    "comment": 3,
+                    "blank": 8
+                },
+                ".xcconfig": {
+                    "code": 51,
+                    "comment": 10,
+                    "blank": 3
+                },
+                "": {
+                    "code": 615,
+                    "comment": 117,
+                    "blank": 43
+                },
+                ".sh": {
+                    "code": 21,
+                    "comment": 4,
+                    "blank": 0
+                },
+                ".xcscheme": {
+                    "code": 174,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".plist": {
+                    "code": 141,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".pbxproj": {
+                    "code": 966,
+                    "comment": 60,
+                    "blank": 29
+                },
+                ".entitlements": {
+                    "code": 20,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xib": {
+                    "code": 343,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".json": {
+                    "code": 592,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xcworkspacedata": {
+                    "code": 21,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".cpp": {
+                    "code": 630,
+                    "comment": 70,
+                    "blank": 159
+                },
+                ".rc": {
+                    "code": 128,
+                    "comment": 64,
+                    "blank": 56
+                },
+                ".h": {
+                    "code": 220,
+                    "comment": 151,
+                    "blank": 108
+                },
+                ".txt": {
+                    "code": 393,
+                    "comment": 5,
+                    "blank": 132
+                },
+                ".manifest": {
+                    "code": 40,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".cmake": {
+                    "code": 72,
+                    "comment": 0,
+                    "blank": 20
+                },
+                ".cc": {
+                    "code": 123,
+                    "comment": 29,
+                    "blank": 44
+                },
+                ".dart": {
+                    "code": 1507,
+                    "comment": 328,
+                    "blank": 260
+                },
+                ".stamp": {
+                    "code": 3,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".md": {
+                    "code": 145,
+                    "comment": 7,
+                    "blank": 96
+                },
+                ".yaml": {
+                    "code": 180,
+                    "comment": 17,
+                    "blank": 34
+                },
+                ".lock": {
+                    "code": 437,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 37,
+                    "comment": 16,
+                    "blank": 5
+                },
+                ".storyboard": {
+                    "code": 63,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".m": {
+                    "code": 21,
+                    "comment": 0,
+                    "blank": 7
+                },
+                ".gradle": {
+                    "code": 89,
+                    "comment": 5,
+                    "blank": 19
+                },
+                ".properties": {
+                    "code": 10,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".xcsettings": {
+                    "code": 16,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xml": {
+                    "code": 62,
+                    "comment": 46,
+                    "blank": 2
+                },
+                ".kt": {
+                    "code": 4,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".java": {
+                    "code": 21,
+                    "comment": 5,
+                    "blank": 3
+                },
+                ".svg": {
+                    "code": 6677,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 1,
+                    "comment": 5,
+                    "filename": ".dart_tool/dartpad/web_plugin_registrant.dart"
+                },
+                {
+                    "blank": 28,
+                    "code": 77,
+                    "comment": 6,
+                    "filename": ".dart_tool/flutter_build/dart_plugin_registrant.dart"
+                },
+                {
+                    "blank": 0,
+                    "code": 344,
+                    "comment": 0,
+                    "filename": ".dart_tool/package_config.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 225,
+                    "comment": 112,
+                    "filename": ".dart_tool/package_config_subset"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".dart_tool/version"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": ".flutter-plugins"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".flutter-plugins-dependencies"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": ".gitattributes"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": ".metadata"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 5,
+                    "filename": "analysis_options.yaml"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 2,
+                    "filename": "android/.gitignore"
+                },
+                {
+                    "blank": 12,
+                    "code": 54,
+                    "comment": 5,
+                    "filename": "android/app/build.gradle"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 4,
+                    "filename": "android/app/src/debug/AndroidManifest.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 6,
+                    "filename": "android/app/src/main/AndroidManifest.xml"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 5,
+                    "filename": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "android/app/src/main/kotlin/com/example/transitway/MainActivity.kt"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 7,
+                    "filename": "android/app/src/main/res/drawable-v21/launch_background.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 7,
+                    "filename": "android/app/src/main/res/drawable/launch_background.xml"
+                },
+                {
+                    "filename": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "android/app/src/main/res/values-night/styles.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "android/app/src/main/res/values/styles.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 4,
+                    "filename": "android/app/src/profile/AndroidManifest.xml"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "android/build.gradle"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "android/gradle.properties"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 1,
+                    "filename": "android/gradle/wrapper/gradle-wrapper.properties"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "android/local.properties"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "android/settings.gradle"
+                },
+                {
+                    "filename": "assets/fonts/Pacifico-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/Images/apple-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/Images/google-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/2edfa3a5d2044d24f1333669b57c75dd/_composite.stamp"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/2edfa3a5d2044d24f1333669b57c75dd/gen_dart_plugin_registrant.stamp"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/2edfa3a5d2044d24f1333669b57c75dd/gen_localizations.stamp"
+                },
+                {
+                    "blank": 1,
+                    "code": 31,
+                    "comment": 3,
+                    "filename": "ios/.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "ios/Flutter/AppFrameworkInfo.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "ios/Flutter/Debug.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 2,
+                    "filename": "ios/Flutter/flutter_export_environment.sh"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 1,
+                    "filename": "ios/Flutter/Generated.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "ios/Flutter/Release.xcconfig"
+                },
+                {
+                    "blank": 9,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "ios/Podfile"
+                },
+                {
+                    "blank": 13,
+                    "code": 443,
+                    "comment": 27,
+                    "filename": "ios/Runner.xcodeproj/project.pbxproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings"
+                },
+                {
+                    "blank": 0,
+                    "code": 87,
+                    "comment": 0,
+                    "filename": "ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ios/Runner.xcworkspace/contents.xcworkspacedata"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "ios/Runner/AppDelegate.swift"
+                },
+                {
+                    "blank": 0,
+                    "code": 122,
+                    "comment": 0,
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json"
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json"
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "ios/Runner/Base.lproj/LaunchScreen.storyboard"
+                },
+                {
+                    "blank": 0,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "ios/Runner/Base.lproj/Main.storyboard"
+                },
+                {
+                    "blank": 6,
+                    "code": 9,
+                    "comment": 4,
+                    "filename": "ios/Runner/GeneratedPluginRegistrant.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "ios/Runner/GeneratedPluginRegistrant.m"
+                },
+                {
+                    "blank": 0,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "ios/Runner/Info.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ios/Runner/Runner-Bridging-Header.h"
+                },
+                {
+                    "filename": "lib/assets/blippo/blippo.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-Black.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-BlackItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-BoldItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-ExtraBold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-ExtraBoldItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-Heavy.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-HeavyItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-Light.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-LightItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-Medium.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-MediumItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-RegularItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-SemiBold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-SemiBoldItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-Thin.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-ThinItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-UltraLight.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/gilroy/Gilroy-UltraLightItalic.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "lib/assets/map.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 6677,
+                    "comment": 0,
+                    "filename": "lib/assets/map.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 108,
+                    "comment": 0,
+                    "filename": "lib/components/routesearch.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 44,
+                    "comment": 3,
+                    "filename": "lib/components/socialbuttons.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 34,
+                    "comment": 1,
+                    "filename": "lib/components/textfield.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "lib/main.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 109,
+                    "comment": 0,
+                    "filename": "lib/Pages/loginpage.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "lib/Pages/mainscreen.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 139,
+                    "comment": 0,
+                    "filename": "lib/Pages/onboarding.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "lib/Pages/otp.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 101,
+                    "comment": 0,
+                    "filename": "lib/Pages/phonenumber.dart"
+                },
+                {
+                    "blank": 4,
+                    "code": 39,
+                    "comment": 3,
+                    "filename": "lib/Pages/register1.dart"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "lib/utils/env.dart"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "linux/.gitignore"
+                },
+                {
+                    "blank": 17,
+                    "code": 63,
+                    "comment": 1,
+                    "filename": "linux/CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 21,
+                    "comment": 1,
+                    "filename": "linux/flutter/CMakeLists.txt"
+                },
+                {
+                    "blank": 1,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/AUTHORS"
+                },
+                {
+                    "blank": 43,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/CHANGELOG.md"
+                },
+                {
+                    "blank": 9,
+                    "code": 46,
+                    "comment": 5,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/integration_test/path_provider_test.dart"
+                },
+                {
+                    "blank": 11,
+                    "code": 78,
+                    "comment": 10,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/lib/main.dart"
+                },
+                {
+                    "blank": 13,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 19,
+                    "comment": 1,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/flutter/CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/flutter/generated_plugins.cmake"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 6,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/main.cc"
+                },
+                {
+                    "blank": 13,
+                    "code": 32,
+                    "comment": 4,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/my_application.cc"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 11,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/my_application.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/pubspec.yaml"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/test_driver/integration_test.dart"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/path_provider_linux.dart"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 6,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/src/get_application_id.dart"
+                },
+                {
+                    "blank": 11,
+                    "code": 55,
+                    "comment": 12,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/src/get_application_id_real.dart"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/src/get_application_id_stub.dart"
+                },
+                {
+                    "blank": 15,
+                    "code": 62,
+                    "comment": 15,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/src/path_provider_linux.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/LICENSE"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 2,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/pubspec.yaml"
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 2,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/README.md"
+                },
+                {
+                    "blank": 12,
+                    "code": 47,
+                    "comment": 3,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/test/get_application_id_test.dart"
+                },
+                {
+                    "blank": 9,
+                    "code": 51,
+                    "comment": 4,
+                    "filename": "linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/test/path_provider_linux_test.dart"
+                },
+                {
+                    "blank": 4,
+                    "code": 3,
+                    "comment": 4,
+                    "filename": "linux/flutter/generated_plugin_registrant.cc"
+                },
+                {
+                    "blank": 5,
+                    "code": 5,
+                    "comment": 6,
+                    "filename": "linux/flutter/generated_plugin_registrant.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "linux/flutter/generated_plugins.cmake"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "linux/main.cc"
+                },
+                {
+                    "blank": 19,
+                    "code": 74,
+                    "comment": 11,
+                    "filename": "linux/my_application.cc"
+                },
+                {
+                    "blank": 4,
+                    "code": 7,
+                    "comment": 8,
+                    "filename": "linux/my_application.h"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "macos/.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 1,
+                    "filename": "macos/Flutter/ephemeral/Flutter-Generated.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 2,
+                    "filename": "macos/Flutter/ephemeral/flutter_export_environment.sh"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "macos/Flutter/Flutter-Debug.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "macos/Flutter/Flutter-Release.xcconfig"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 3,
+                    "filename": "macos/Flutter/GeneratedPluginRegistrant.swift"
+                },
+                {
+                    "blank": 9,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "macos/Podfile"
+                },
+                {
+                    "blank": 16,
+                    "code": 523,
+                    "comment": 33,
+                    "filename": "macos/Runner.xcodeproj/project.pbxproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 87,
+                    "comment": 0,
+                    "filename": "macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "macos/Runner.xcworkspace/contents.xcworkspacedata"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "macos/Runner/AppDelegate.swift"
+                },
+                {
+                    "filename": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 343,
+                    "comment": 0,
+                    "filename": "macos/Runner/Base.lproj/MainMenu.xib"
+                },
+                {
+                    "blank": 3,
+                    "code": 3,
+                    "comment": 8,
+                    "filename": "macos/Runner/Configs/AppInfo.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "macos/Runner/Configs/Debug.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "macos/Runner/Configs/Release.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "macos/Runner/Configs/Warnings.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "macos/Runner/DebugProfile.entitlements"
+                },
+                {
+                    "blank": 0,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "macos/Runner/Info.plist"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "macos/Runner/MainFlutterWindow.swift"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "macos/Runner/Release.entitlements"
+                },
+                {
+                    "blank": 0,
+                    "code": 437,
+                    "comment": 1,
+                    "filename": "pubspec.lock"
+                },
+                {
+                    "blank": 18,
+                    "code": 76,
+                    "comment": 6,
+                    "filename": "pubspec.yaml"
+                },
+                {
+                    "blank": 6,
+                    "code": 10,
+                    "comment": 3,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 14,
+                    "comment": 10,
+                    "filename": "test/widget_test.dart"
+                },
+                {
+                    "filename": "web/favicon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "web/icons/Icon-192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "web/icons/Icon-512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "web/icons/Icon-maskable-192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "web/icons/Icon-maskable-512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 37,
+                    "comment": 16,
+                    "filename": "web/index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "web/manifest.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "windows/.gitignore"
+                },
+                {
+                    "blank": 10,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "windows/CMakeLists.txt"
+                },
+                {
+                    "blank": 23,
+                    "code": 60,
+                    "comment": 1,
+                    "filename": "windows/flutter/CMakeLists.txt"
+                },
+                {
+                    "blank": 1,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/AUTHORS"
+                },
+                {
+                    "blank": 31,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/CHANGELOG.md"
+                },
+                {
+                    "blank": 9,
+                    "code": 43,
+                    "comment": 5,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/integration_test/path_provider_test.dart"
+                },
+                {
+                    "blank": 13,
+                    "code": 74,
+                    "comment": 6,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/lib/main.dart"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/pubspec.yaml"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/test_driver/integration_test.dart"
+                },
+                {
+                    "blank": 13,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/CMakeLists.txt"
+                },
+                {
+                    "blank": 22,
+                    "code": 59,
+                    "comment": 1,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/flutter/CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/flutter/generated_plugins.cmake"
+                },
+                {
+                    "blank": 9,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/CMakeLists.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 48,
+                    "comment": 7,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/flutter_window.cpp"
+                },
+                {
+                    "blank": 10,
+                    "code": 23,
+                    "comment": 11,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/flutter_window.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 25,
+                    "comment": 7,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 6,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/resource.h"
+                },
+                {
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/resources/app_icon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 53,
+                    "comment": 8,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/run_loop.cpp"
+                },
+                {
+                    "blank": 12,
+                    "code": 20,
+                    "comment": 11,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/run_loop.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/runner.exe.manifest"
+                },
+                {
+                    "blank": 28,
+                    "code": 64,
+                    "comment": 32,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/Runner.rc"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 3,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/utils.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 6,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/utils.h"
+                },
+                {
+                    "blank": 48,
+                    "code": 174,
+                    "comment": 19,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/win32_window.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 45,
+                    "comment": 33,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/win32_window.h"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 6,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/path_provider_windows.dart"
+                },
+                {
+                    "blank": 54,
+                    "code": 55,
+                    "comment": 134,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/src/folders.dart"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/src/folders_stub.dart"
+                },
+                {
+                    "blank": 28,
+                    "code": 173,
+                    "comment": 53,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/src/path_provider_windows_real.dart"
+                },
+                {
+                    "blank": 6,
+                    "code": 10,
+                    "comment": 18,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/src/path_provider_windows_stub.dart"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/LICENSE"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 2,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/pubspec.yaml"
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 2,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/README.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 4,
+                    "filename": "windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/test/path_provider_windows_test.dart"
+                },
+                {
+                    "blank": 4,
+                    "code": 3,
+                    "comment": 4,
+                    "filename": "windows/flutter/generated_plugin_registrant.cc"
+                },
+                {
+                    "blank": 5,
+                    "code": 5,
+                    "comment": 6,
+                    "filename": "windows/flutter/generated_plugin_registrant.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "windows/flutter/generated_plugins.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "windows/runner/CMakeLists.txt"
+                },
+                {
+                    "blank": 12,
+                    "code": 45,
+                    "comment": 4,
+                    "filename": "windows/runner/flutter_window.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 20,
+                    "comment": 6,
+                    "filename": "windows/runner/flutter_window.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 4,
+                    "filename": "windows/runner/main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 6,
+                    "filename": "windows/runner/resource.h"
+                },
+                {
+                    "filename": "windows/runner/resources/app_icon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "windows/runner/runner.exe.manifest"
+                },
+                {
+                    "blank": 28,
+                    "code": 64,
+                    "comment": 32,
+                    "filename": "windows/runner/Runner.rc"
+                },
+                {
+                    "blank": 9,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "windows/runner/utils.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 8,
+                    "comment": 7,
+                    "filename": "windows/runner/utils.h"
+                },
+                {
+                    "blank": 47,
+                    "code": 183,
+                    "comment": 16,
+                    "filename": "windows/runner/win32_window.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 48,
+                    "comment": 30,
+                    "filename": "windows/runner/win32_window.h"
+                }
+            ]
+        }
+    ]
+}

@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:transitway/Pages/namepage.dart';
+import 'package:transitway/Pages/otp.dart';
 import 'package:transitway/Pages/phonenumber.dart';
 import 'package:transitway/components/textfieldotp.dart';
+import 'package:transitway/utils/env.dart';
 
-class otpPage extends StatefulWidget {
-  const otpPage({super.key});
+class namePage extends StatefulWidget {
+  const namePage({super.key});
 
   @override
-  State<otpPage> createState() => _otpPageState();
+  State<namePage> createState() => _namePageState();
 }
 
-class _otpPageState extends State<otpPage> {
+class _namePageState extends State<namePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,14 +34,14 @@ class _otpPageState extends State<otpPage> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => phoneNumber()),
+                                      builder: (context) => otpPage()),
                                 );
                               },
                               child: Icon(Icons.arrow_back_ios_new)),
                           Padding(
                             padding: const EdgeInsets.only(left: 30.0),
                             child: Text(
-                              'Verifica codul',
+                              'Introdu numele si prenumele',
                               style: TextStyle(
                                   fontSize: 17, fontWeight: FontWeight.bold),
                             ),
@@ -48,19 +50,19 @@ class _otpPageState extends State<otpPage> {
                       ),
                     ),
                     Text(
-                      'Am trimis un cod la',
-                      style: TextStyle(color: Color(0xFF6E6E6E), fontSize: 17),
-                    ),
-                    Text(
-                      '+40735443664',
-                      style: TextStyle(color: Colors.black, fontSize: 17),
-                    ),
-                    Text(
-                      'Schimba numarul de telefon',
-                      style: TextStyle(color: Color(0XFF2E01C8), fontSize: 17),
+                      'Nume',
+                      style: TextStyle(color: darkGrey, fontSize: 17),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 25.0),
+                      padding: const EdgeInsets.only(top: 10.0, bottom: 20),
+                      child: textFieldBoxOTP(),
+                    ),
+                    Text(
+                      'Prenume',
+                      style: TextStyle(color: darkGrey, fontSize: 17),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 10.0),
                       child: textFieldBoxOTP(),
                     ),
                   ],

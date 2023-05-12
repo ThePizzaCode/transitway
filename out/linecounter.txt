@@ -1,0 +1,288 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2023-05-12 21:53:30
+count workspace : /Users/gabriel/Documents/Flutter apps/transitway
+total files : 239
+total code lines : 13862
+total comment lines : 939
+total blank lines : 1030
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |         .swift|             40|              3|              8|   0.29|
+   |      .xcconfig|             51|             10|              3|   0.37|
+   |               |            615|            117|             43|    4.4|
+   |            .sh|             21|              4|              0|   0.15|
+   |      .xcscheme|            174|              0|              0|    1.3|
+   |         .plist|            141|              0|              0|    1.0|
+   |       .pbxproj|            966|             60|             29|    7.0|
+   |  .entitlements|             20|              0|              0|   0.14|
+   |           .xib|            343|              0|              0|    2.5|
+   |          .json|            592|              0|              0|    4.3|
+   |.xcworkspacedata|             21|              0|              0|   0.15|
+   |           .cpp|            630|             70|            159|    4.5|
+   |            .rc|            128|             64|             56|   0.92|
+   |             .h|            220|            151|            108|    1.6|
+   |           .txt|            393|              5|            132|    2.8|
+   |      .manifest|             40|              0|              0|   0.29|
+   |         .cmake|             72|              0|             20|   0.52|
+   |            .cc|            123|             29|             44|   0.89|
+   |          .dart|           1507|            328|            260|     11|
+   |         .stamp|              3|              0|              0|  0.022|
+   |            .md|            145|              7|             96|    1.0|
+   |          .yaml|            180|             17|             34|    1.3|
+   |          .lock|            437|              1|              0|    3.2|
+   |          .html|             37|             16|              5|   0.27|
+   |    .storyboard|             63|              0|              0|   0.45|
+   |             .m|             21|              0|              7|   0.15|
+   |        .gradle|             89|              5|             19|   0.64|
+   |    .properties|             10|              1|              0|  0.072|
+   |    .xcsettings|             16|              0|              0|   0.12|
+   |           .xml|             62|             46|              2|   0.45|
+   |            .kt|              4|              0|              2|  0.029|
+   |          .java|             21|              5|              3|   0.15|
+   |           .svg|           6677|              0|              0|     48|
+   -------------------------------------------------------------------------
+.dart_tool/dartpad/web_plugin_registrant.dart, code is 1, comment is 5, blank is 2.
+.dart_tool/flutter_build/dart_plugin_registrant.dart, code is 77, comment is 6, blank is 28.
+.dart_tool/package_config.json, code is 344, comment is 0, blank is 0.
+.dart_tool/package_config_subset, code is 225, comment is 112, blank is 0.
+.dart_tool/version, code is 1, comment is 0, blank is 0.
+.flutter-plugins, code is 7, comment is 0, blank is 0.
+.flutter-plugins-dependencies, code is 1, comment is 0, blank is 0.
+.gitattributes, code is 2, comment is 0, blank is 0.
+.gitignore, code is 38, comment is 0, blank is 6.
+.metadata, code is 40, comment is 0, blank is 5.
+analysis_options.yaml, code is 26, comment is 5, blank is 3.
+android/.gitignore, code is 12, comment is 2, blank is 1.
+android/app/build.gradle, code is 54, comment is 5, blank is 12.
+android/app/src/debug/AndroidManifest.xml, code is 4, comment is 4, blank is 0.
+android/app/src/main/AndroidManifest.xml, code is 28, comment is 6, blank is 0.
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java, code is 21, comment is 5, blank is 3.
+android/app/src/main/kotlin/com/example/transitway/MainActivity.kt, code is 4, comment is 0, blank is 2.
+android/app/src/main/res/drawable-v21/launch_background.xml, code is 4, comment is 7, blank is 1.
+android/app/src/main/res/drawable/launch_background.xml, code is 4, comment is 7, blank is 1.
+android/app/src/main/res/mipmap-hdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-mdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/values-night/styles.xml, code is 9, comment is 9, blank is 0.
+android/app/src/main/res/values/styles.xml, code is 9, comment is 9, blank is 0.
+android/app/src/profile/AndroidManifest.xml, code is 4, comment is 4, blank is 0.
+android/build.gradle, code is 27, comment is 0, blank is 4.
+android/gradle.properties, code is 3, comment is 0, blank is 0.
+android/gradle/wrapper/gradle-wrapper.properties, code is 5, comment is 1, blank is 0.
+android/local.properties, code is 2, comment is 0, blank is 0.
+android/settings.gradle, code is 8, comment is 0, blank is 3.
+assets/fonts/Pacifico-Regular.ttf, it is a binary file.
+assets/Images/apple-icon.png, it is a binary file.
+assets/Images/google-icon.png, it is a binary file.
+build/2edfa3a5d2044d24f1333669b57c75dd/_composite.stamp, code is 1, comment is 0, blank is 0.
+build/2edfa3a5d2044d24f1333669b57c75dd/gen_dart_plugin_registrant.stamp, code is 1, comment is 0, blank is 0.
+build/2edfa3a5d2044d24f1333669b57c75dd/gen_localizations.stamp, code is 1, comment is 0, blank is 0.
+ios/.gitignore, code is 31, comment is 3, blank is 1.
+ios/Flutter/AppFrameworkInfo.plist, code is 26, comment is 0, blank is 0.
+ios/Flutter/Debug.xcconfig, code is 2, comment is 0, blank is 0.
+ios/Flutter/flutter_export_environment.sh, code is 11, comment is 2, blank is 0.
+ios/Flutter/Generated.xcconfig, code is 13, comment is 1, blank is 0.
+ios/Flutter/Release.xcconfig, code is 2, comment is 0, blank is 0.
+ios/Podfile, code is 32, comment is 0, blank is 9.
+ios/Runner.xcodeproj/project.pbxproj, code is 443, comment is 27, blank is 13.
+ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata, code is 7, comment is 0, blank is 0.
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist, code is 8, comment is 0, blank is 0.
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings, code is 8, comment is 0, blank is 0.
+ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme, code is 87, comment is 0, blank is 0.
+ios/Runner.xcworkspace/contents.xcworkspacedata, code is 7, comment is 0, blank is 0.
+ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist, code is 8, comment is 0, blank is 0.
+ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings, code is 8, comment is 0, blank is 0.
+ios/Runner/AppDelegate.swift, code is 12, comment is 0, blank is 1.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json, code is 122, comment is 0, blank is 0.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png, it is a binary file.
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png, it is a binary file.
+ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json, code is 23, comment is 0, blank is 0.
+ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png, it is a binary file.
+ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png, it is a binary file.
+ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png, it is a binary file.
+ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md, code is 3, comment is 0, blank is 2.
+ios/Runner/Base.lproj/LaunchScreen.storyboard, code is 37, comment is 0, blank is 0.
+ios/Runner/Base.lproj/Main.storyboard, code is 26, comment is 0, blank is 0.
+ios/Runner/GeneratedPluginRegistrant.h, code is 9, comment is 4, blank is 6.
+ios/Runner/GeneratedPluginRegistrant.m, code is 21, comment is 0, blank is 7.
+ios/Runner/Info.plist, code is 51, comment is 0, blank is 0.
+ios/Runner/Runner-Bridging-Header.h, code is 1, comment is 0, blank is 0.
+lib/assets/blippo/blippo.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-Black.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-BlackItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-Bold.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-BoldItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-ExtraBold.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-ExtraBoldItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-Heavy.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-HeavyItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-Light.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-LightItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-Medium.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-MediumItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-Regular.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-RegularItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-SemiBold.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-SemiBoldItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-Thin.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-ThinItalic.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-UltraLight.ttf, it is a binary file.
+lib/assets/gilroy/Gilroy-UltraLightItalic.ttf, it is a binary file.
+lib/assets/map.png, it is a binary file.
+lib/assets/map.svg, code is 6677, comment is 0, blank is 0.
+lib/components/routesearch.dart, code is 108, comment is 0, blank is 3.
+lib/components/socialbuttons.dart, code is 44, comment is 3, blank is 3.
+lib/components/textfield.dart, code is 34, comment is 1, blank is 3.
+lib/main.dart, code is 18, comment is 1, blank is 3.
+lib/Pages/loginpage.dart, code is 109, comment is 0, blank is 3.
+lib/Pages/mainscreen.dart, code is 60, comment is 0, blank is 3.
+lib/Pages/onboarding.dart, code is 139, comment is 0, blank is 3.
+lib/Pages/otp.dart, code is 14, comment is 0, blank is 3.
+lib/Pages/phonenumber.dart, code is 101, comment is 0, blank is 3.
+lib/Pages/register1.dart, code is 39, comment is 3, blank is 4.
+lib/utils/env.dart, code is 6, comment is 1, blank is 1.
+linux/.gitignore, code is 1, comment is 0, blank is 0.
+linux/CMakeLists.txt, code is 63, comment is 1, blank is 17.
+linux/flutter/CMakeLists.txt, code is 21, comment is 1, blank is 6.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/AUTHORS, code is 65, comment is 0, blank is 1.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/CHANGELOG.md, code is 52, comment is 0, blank is 43.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/integration_test/path_provider_test.dart, code is 46, comment is 5, blank is 9.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/lib/main.dart, code is 78, comment is 10, blank is 11.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/CMakeLists.txt, code is 35, comment is 0, blank is 13.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/flutter/CMakeLists.txt, code is 19, comment is 1, blank is 6.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/flutter/generated_plugins.cmake, code is 18, comment is 0, blank is 5.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/main.cc, code is 6, comment is 6, blank is 3.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/my_application.cc, code is 32, comment is 4, blank is 13.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/my_application.h, code is 7, comment is 11, blank is 5.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/pubspec.yaml, code is 15, comment is 1, blank is 3.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/README.md, code is 7, comment is 0, blank is 2.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/test_driver/integration_test.dart, code is 2, comment is 3, blank is 2.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/path_provider_linux.dart, code is 1, comment is 3, blank is 1.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/src/get_application_id.dart, code is 2, comment is 6, blank is 1.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/src/get_application_id_real.dart, code is 55, comment is 12, blank is 11.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/src/get_application_id_stub.dart, code is 1, comment is 4, blank is 1.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/lib/src/path_provider_linux.dart, code is 62, comment is 15, blank is 15.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/LICENSE, code is 22, comment is 0, blank is 3.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/pubspec.yaml, code is 24, comment is 2, blank is 4.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/README.md, code is 10, comment is 2, blank is 5.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/test/get_application_id_test.dart, code is 47, comment is 3, blank is 12.
+linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/test/path_provider_linux_test.dart, code is 51, comment is 4, blank is 9.
+linux/flutter/generated_plugin_registrant.cc, code is 3, comment is 4, blank is 4.
+linux/flutter/generated_plugin_registrant.h, code is 5, comment is 6, blank is 5.
+linux/flutter/generated_plugins.cmake, code is 18, comment is 0, blank is 5.
+linux/main.cc, code is 5, comment is 0, blank is 1.
+linux/my_application.cc, code is 74, comment is 11, blank is 19.
+linux/my_application.h, code is 7, comment is 8, blank is 4.
+macos/.gitignore, code is 6, comment is 0, blank is 1.
+macos/Flutter/ephemeral/Flutter-Generated.xcconfig, code is 10, comment is 1, blank is 0.
+macos/Flutter/ephemeral/flutter_export_environment.sh, code is 10, comment is 2, blank is 0.
+macos/Flutter/Flutter-Debug.xcconfig, code is 2, comment is 0, blank is 0.
+macos/Flutter/Flutter-Release.xcconfig, code is 2, comment is 0, blank is 0.
+macos/Flutter/GeneratedPluginRegistrant.swift, code is 8, comment is 3, blank is 3.
+macos/Podfile, code is 31, comment is 0, blank is 9.
+macos/Runner.xcodeproj/project.pbxproj, code is 523, comment is 33, blank is 16.
+macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist, code is 8, comment is 0, blank is 0.
+macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme, code is 87, comment is 0, blank is 0.
+macos/Runner.xcworkspace/contents.xcworkspacedata, code is 7, comment is 0, blank is 0.
+macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist, code is 8, comment is 0, blank is 0.
+macos/Runner/AppDelegate.swift, code is 8, comment is 0, blank is 1.
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png, it is a binary file.
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png, it is a binary file.
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png, it is a binary file.
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png, it is a binary file.
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png, it is a binary file.
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png, it is a binary file.
+macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png, it is a binary file.
+macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json, code is 68, comment is 0, blank is 0.
+macos/Runner/Base.lproj/MainMenu.xib, code is 343, comment is 0, blank is 0.
+macos/Runner/Configs/AppInfo.xcconfig, code is 3, comment is 8, blank is 3.
+macos/Runner/Configs/Debug.xcconfig, code is 2, comment is 0, blank is 0.
+macos/Runner/Configs/Release.xcconfig, code is 2, comment is 0, blank is 0.
+macos/Runner/Configs/Warnings.xcconfig, code is 13, comment is 0, blank is 0.
+macos/Runner/DebugProfile.entitlements, code is 12, comment is 0, blank is 0.
+macos/Runner/Info.plist, code is 32, comment is 0, blank is 0.
+macos/Runner/MainFlutterWindow.swift, code is 12, comment is 0, blank is 3.
+macos/Runner/Release.entitlements, code is 8, comment is 0, blank is 0.
+pubspec.lock, code is 437, comment is 1, blank is 0.
+pubspec.yaml, code is 76, comment is 6, blank is 18.
+README.md, code is 10, comment is 3, blank is 6.
+test/widget_test.dart, code is 14, comment is 10, blank is 6.
+web/favicon.png, it is a binary file.
+web/icons/Icon-192.png, it is a binary file.
+web/icons/Icon-512.png, it is a binary file.
+web/icons/Icon-maskable-192.png, it is a binary file.
+web/icons/Icon-maskable-512.png, it is a binary file.
+web/index.html, code is 37, comment is 16, blank is 5.
+web/manifest.json, code is 35, comment is 0, blank is 0.
+windows/.gitignore, code is 14, comment is 0, blank is 3.
+windows/CMakeLists.txt, code is 55, comment is 0, blank is 10.
+windows/flutter/CMakeLists.txt, code is 60, comment is 1, blank is 23.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/AUTHORS, code is 65, comment is 0, blank is 1.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/CHANGELOG.md, code is 46, comment is 0, blank is 31.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/integration_test/path_provider_test.dart, code is 43, comment is 5, blank is 9.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/lib/main.dart, code is 74, comment is 6, blank is 13.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/pubspec.yaml, code is 15, comment is 1, blank is 2.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/README.md, code is 7, comment is 0, blank is 2.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/test_driver/integration_test.dart, code is 2, comment is 3, blank is 2.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/CMakeLists.txt, code is 46, comment is 0, blank is 13.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/flutter/CMakeLists.txt, code is 59, comment is 1, blank is 22.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/flutter/generated_plugins.cmake, code is 18, comment is 0, blank is 5.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/CMakeLists.txt, code is 9, comment is 0, blank is 9.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/flutter_window.cpp, code is 48, comment is 7, blank is 13.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/flutter_window.h, code is 23, comment is 11, blank is 10.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/main.cpp, code is 25, comment is 7, blank is 8.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/resource.h, code is 9, comment is 6, blank is 1.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/resources/app_icon.ico, it is a binary file.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/run_loop.cpp, code is 53, comment is 8, blank is 9.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/run_loop.h, code is 20, comment is 11, blank is 12.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/runner.exe.manifest, code is 20, comment is 0, blank is 0.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/Runner.rc, code is 64, comment is 32, blank is 28.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/utils.cpp, code is 19, comment is 3, blank is 4.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/utils.h, code is 4, comment is 6, blank is 3.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/win32_window.cpp, code is 174, comment is 19, blank is 48.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/windows/runner/win32_window.h, code is 45, comment is 33, blank is 22.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/path_provider_windows.dart, code is 3, comment is 6, blank is 1.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/src/folders.dart, code is 55, comment is 134, blank is 54.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/src/folders_stub.dart, code is 1, comment is 4, blank is 1.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/src/path_provider_windows_real.dart, code is 173, comment is 53, blank is 28.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/lib/src/path_provider_windows_stub.dart, code is 10, comment is 18, blank is 6.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/LICENSE, code is 22, comment is 0, blank is 3.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/pubspec.yaml, code is 24, comment is 2, blank is 4.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/README.md, code is 10, comment is 2, blank is 5.
+windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/test/path_provider_windows_test.dart, code is 37, comment is 4, blank is 6.
+windows/flutter/generated_plugin_registrant.cc, code is 3, comment is 4, blank is 4.
+windows/flutter/generated_plugin_registrant.h, code is 5, comment is 6, blank is 5.
+windows/flutter/generated_plugins.cmake, code is 18, comment is 0, blank is 5.
+windows/runner/CMakeLists.txt, code is 26, comment is 0, blank is 13.
+windows/runner/flutter_window.cpp, code is 45, comment is 4, blank is 12.
+windows/runner/flutter_window.h, code is 20, comment is 6, blank is 8.
+windows/runner/main.cpp, code is 30, comment is 4, blank is 9.
+windows/runner/resource.h, code is 9, comment is 6, blank is 1.
+windows/runner/resources/app_icon.ico, it is a binary file.
+windows/runner/runner.exe.manifest, code is 20, comment is 0, blank is 0.
+windows/runner/Runner.rc, code is 64, comment is 32, blank is 28.
+windows/runner/utils.cpp, code is 53, comment is 2, blank is 9.
+windows/runner/utils.h, code is 8, comment is 7, blank is 5.
+windows/runner/win32_window.cpp, code is 183, comment is 16, blank is 47.
+windows/runner/win32_window.h, code is 48, comment is 30, blank is 21.
+===============================================================================

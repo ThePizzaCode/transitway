@@ -97,10 +97,15 @@ class _onboardingState extends State<onboarding> {
                 ],
               ),
             ),
-            socialButton(),
-            socialButton(),
-            SizedBox(
-              height: 205,
+            socialButton(
+              buttonText: 'Sign in with Google',
+              imageURL:
+                  'https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png',
+            ),
+            socialButton(
+              buttonText: 'Sign in with Apple',
+              imageURL:
+                  'https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png',
             ),
             Column(
               children: [
