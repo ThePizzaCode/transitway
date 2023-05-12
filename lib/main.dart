@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:transitway/Pages/loginpage.dart';
 import 'package:transitway/Pages/mainscreen.dart';
+import 'package:transitway/Pages/onboarding.dart';
+import 'package:transitway/Pages/register1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const loginPage(),
+      home: const onboarding(),
     );
   }
 }
