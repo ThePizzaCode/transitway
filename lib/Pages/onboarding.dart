@@ -4,6 +4,7 @@ import 'package:transitway/components/socialbuttons.dart';
 import 'package:transitway/components/textfield.dart';
 import 'package:transitway/utils/env.dart';
 import 'package:sign_in_button/sign_in_button.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class onboarding extends StatefulWidget {
   const onboarding({super.key});
@@ -22,18 +23,12 @@ class _onboardingState extends State<onboarding> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Padding(
-              padding: const EdgeInsets.only(
-                top: 60,
-                bottom: 70,
-              ),
-              child: Text(
-                't',
-                style: TextStyle(
-                  fontSize: 80,
-                  color: Colors.purple[700],
+                padding: const EdgeInsets.only(
+                  top: 60,
+                  bottom: 20,
                 ),
-              ),
-            ),
+                child: CachedNetworkImage(
+                    imageUrl: 'https://i.imgur.com/tfji2AC.png')),
             Padding(
               padding: const EdgeInsets.only(
                 bottom: 20,
