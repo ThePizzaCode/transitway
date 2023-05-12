@@ -28,7 +28,10 @@ class _onboardingState extends State<onboarding> {
               ),
               child: Text(
                 't',
-                style: TextStyle(fontSize: 80),
+                style: TextStyle(
+                  fontSize: 80,
+                  color: Colors.purple[700],
+                ),
               ),
             ),
             Padding(
@@ -51,7 +54,8 @@ class _onboardingState extends State<onboarding> {
                 },
                 child: Container(
                   decoration: BoxDecoration(
-                      color: iosGrey, borderRadius: BorderRadius.circular(12)),
+                      color: Color(0xFFE8E8E8),
+                      borderRadius: BorderRadius.circular(12)),
                   child: Padding(
                     padding: const EdgeInsets.all(15.0),
                     child: Row(children: [

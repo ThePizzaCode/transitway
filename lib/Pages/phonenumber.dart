@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:transitway/Pages/onboarding.dart';
 import 'package:transitway/Pages/otp.dart';
 import 'package:transitway/components/textfield.dart';
 
@@ -28,7 +29,7 @@ class _phoneNumberState extends State<phoneNumber> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => otpPage()),
+                                  builder: (context) => onboarding()),
                             );
                           },
                           child: Icon(Icons.arrow_back_ios_new)),
@@ -67,7 +68,10 @@ class _phoneNumberState extends State<phoneNumber> {
                 Spacer(),
                 GestureDetector(
                   onTap: () {
-                    // handle button press
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => otpPage()),
+                    );
                   },
                   child: Container(
                     width: double.infinity,
