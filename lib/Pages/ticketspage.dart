@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:transitway/Pages/fetchtickets.dart';
 import 'package:transitway/Pages/tickettypelist.dart';
+import 'package:transitway/components/ticketobject.dart';
 import 'package:transitway/utils/env.dart';
 
 class ticketsPage extends StatefulWidget {
@@ -78,6 +80,10 @@ class _ticketsPageState extends State<ticketsPage> {
                 ),
               ),
             ),
+            ticketObject(),
+            ticketObject(),
+            ticketObject(),
+            ticketObject(),
           ],
         ),
       )),

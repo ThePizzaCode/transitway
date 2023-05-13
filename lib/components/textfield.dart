@@ -15,6 +15,7 @@ class _textFieldBoxState extends State<textFieldBox> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextField(
+          keyboardType: TextInputType.phone,
           //must add controller
           cursorColor: Colors.black,
           style: TextStyle(fontSize: 22),

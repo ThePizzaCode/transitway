@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:transitway/Pages/navbar.dart';
+import 'package:transitway/Pages/ticketselectedone.dart';
 import 'package:transitway/Pages/ticketspage.dart';
 import 'package:transitway/components/tickets.dart';
 import 'package:transitway/utils/env.dart';
@@ -61,11 +62,35 @@ class _ticketTypeListState extends State<ticketTypeList> {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(bottom: 20.0),
-              child: ticketComp(
-                type: '1 Calatorie',
-                price: '2,5 lei',
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => ticketSelectedOne(
+                            number: 4,
+                            titlu: 'Bilet 1 Calatorie',
+                          )),
+                );
+              },
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => ticketSelectedOne(
+                              number: 2,
+                              titlu: 'Bilet 2 Calatorii',
+                            )),
+                  );
+                },
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom: 20.0),
+                  child: ticketComp(
+                    type: '1 Calatorie',
+                    price: '2,5 lei',
+                  ),
+                ),
               ),
             ),
             Padding(

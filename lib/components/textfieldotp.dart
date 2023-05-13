@@ -15,6 +15,7 @@ class _textFieldBoxOTPState extends State<textFieldBoxOTP> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextField(
+          keyboardType: TextInputType.number,
           //must add controller
           cursorColor: Colors.black,
           style: TextStyle(fontSize: 22),
