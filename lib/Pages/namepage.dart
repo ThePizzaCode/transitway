@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:transitway/Pages/homescreen.dart';
 import 'package:transitway/Pages/namepage.dart';
 import 'package:transitway/Pages/otp.dart';
 import 'package:transitway/Pages/phonenumber.dart';
@@ -31,7 +32,7 @@ class _namePageState extends State<namePage> {
                         children: [
                           GestureDetector(
                               onTap: () {
-                                Navigator.push(
+                                Navigator.pop(
                                   context,
                                   MaterialPageRoute(
                                       builder: (context) => otpPage()),
@@ -76,7 +77,7 @@ class _namePageState extends State<namePage> {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => namePage()),
+                  MaterialPageRoute(builder: (context) => homePage()),
                 );
               },
               child: Container(

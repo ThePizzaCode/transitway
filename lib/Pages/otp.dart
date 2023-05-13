@@ -29,7 +29,7 @@ class _otpPageState extends State<otpPage> {
                         children: [
                           GestureDetector(
                               onTap: () {
-                                Navigator.push(
+                                Navigator.pop(
                                   context,
                                   MaterialPageRoute(
                                       builder: (context) => phoneNumber()),

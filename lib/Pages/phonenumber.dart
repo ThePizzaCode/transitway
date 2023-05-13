@@ -26,7 +26,7 @@ class _phoneNumberState extends State<phoneNumber> {
                     children: [
                       GestureDetector(
                           onTap: () {
-                            Navigator.push(
+                            Navigator.pop(
                               context,
                               MaterialPageRoute(
                                   builder: (context) => onboarding()),
