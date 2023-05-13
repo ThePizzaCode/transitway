@@ -7,7 +7,12 @@ import 'package:transitway/Pages/profilepage.dart';
 import 'package:transitway/Pages/ticketspage.dart';
 
 class navBar extends StatefulWidget {
-  const navBar({Key? key}) : super(key: key);
+  final int pageIndex;
+  final Key? key;
+  const navBar({
+    required this.pageIndex,
+    this.key,
+  }) : super(key: key);
 
   @override
   _navBarState createState() => _navBarState();
@@ -15,6 +20,12 @@ class navBar extends StatefulWidget {
 
 class _navBarState extends State<navBar> {
   int _selectedIndex = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    _selectedIndex = widget.pageIndex;
+  }
 
   final List<Widget> _screens = [
     homePage(),

@@ -5,6 +5,7 @@ import 'package:transitway/Pages/navbar.dart';
 import 'package:transitway/Pages/onboarding.dart';
 import 'package:transitway/Pages/profilepage.dart';
 import 'package:transitway/Pages/register1.dart';
+import 'package:transitway/Pages/tickettypelist.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: navBar(),
+      home: navBar(
+        pageIndex: 2,
+      ),
     );
   }
 }
